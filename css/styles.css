@@ -163,12 +163,11 @@ margin: 0 auto 48px auto;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    
 cursor: pointer;
 margin: 0 auto;
 border-radius: 4px;
 padding: 16px 32px;
-width: 169px;
+max-width: 169px;
 height: 56px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
@@ -180,10 +179,14 @@ border: none;
 .hero-title-button:focus { 
     background: #404bbf;
 }
+.drs-cont {
+   padding-top: 120px;
+    padding-bottom: 120px; 
+    
+}
+
 
 .drs {
-    padding-top: 120px;
-    padding-bottom: 120px;
     margin: 0 auto;
     display: flex;
     gap: 24px;
@@ -324,9 +327,11 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 width: 264px;
-margin-top: 16px;
+
 }
 
 .footer .logo-footer {
     color: #f4f4fd;
+    margin-bottom: 16px;
+    display: inline-block;
 }
