@@ -332,6 +332,9 @@ width: 264px;
 
 .footer .logo-footer {
     color: #f4f4fd;
+    
+}
+.container .logo {
     margin-bottom: 16px;
     display: inline-block;
 }
