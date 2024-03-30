@@ -178,9 +178,17 @@ border: none;
 }
 
 .drs {
-    padding: 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin: 0 auto;
     display: flex;
-    gap: 24PX;
+    gap: 24px;
+    
+}
+
+.drs-item {
+    width: calc((100% - 24px * 3) / 4);
+   
 }
 
 .drc-list {
@@ -189,6 +197,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .drc-list-text {
@@ -197,16 +206,20 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+
 }
 
 .team {
     background: #f4f4fd;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
 }
 
 .team-list {
     display: flex;
     gap: 24px;
+    justify-content: space-between;
 }
 
 .team-list-fon {
@@ -221,10 +234,11 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize; 
 color: #2e2f42;
+margin-bottom: 72px;
 }
 
 .team-img {
-  
+  margin-bottom: 32px;
 }
 
 .team-list-title {
@@ -234,6 +248,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 
@@ -244,11 +259,18 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+padding-bottom: 32px;
 }
 
 .portfolio {
     display: flex;
     gap: 24px;
+    flex-wrap: wrap;
+}
+
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-title {
@@ -258,10 +280,12 @@ color: #434455;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    color: #2e2f42
+    color: #2e2f42;
+    margin-bottom: 72px;
 }
 
 .portfolio-img {
+    margin-bottom: 32px;
 }
 
 .portfolio-list-title {
@@ -270,6 +294,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
+margin-bottom: 8px;
 }
 
 .portfolio-list-text {
@@ -278,11 +303,15 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+padding-bottom: 32px;
 }
 
 .footer {
     background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
+
 
 .footer-text {
     font-weight: 400;
@@ -290,6 +319,8 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+width: 264px;
+margin-top: 16px;
 }
 
 .footer .logo-footer {
