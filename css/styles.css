@@ -270,17 +270,6 @@ text-align: center;
 color: #434455;
 }
 
-.portfolio {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-    row-gap: 48px;
-}
-
-.firs-element {
-    width: calc((100% - 48px) / 3);
-}
-
 .portfolio-section {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -297,9 +286,17 @@ color: #434455;
     margin-bottom: 72px;
 }
 
-.portfolio-img {
-
+.portfolio {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    row-gap: 48px;
 }
+
+.firs-element {
+    width: calc((100% - 48px) / 3);
+}
+
 
 .wrap-product {
     padding: 32px 16px;
