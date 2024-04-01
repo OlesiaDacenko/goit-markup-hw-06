@@ -278,6 +278,7 @@ color: #434455;
     display: flex;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
 }
 
 .firs-element {
@@ -301,7 +302,7 @@ color: #434455;
 }
 
 .portfolio-img {
-    row-gap: 48px;
+
 }
 
 .wrap-product {
