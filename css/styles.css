@@ -34,15 +34,17 @@ img {
   font-style: normal;
 }
 
-
-
 .visually-hidden {
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 a {
@@ -148,7 +150,7 @@ margin-left: auto;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff; 
-max-width: 496px;
+    max-width: 496px; 
 margin: 0 auto 48px auto;
 }
 
