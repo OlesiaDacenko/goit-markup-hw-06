@@ -58,10 +58,7 @@ a {
     margin: 0 auto;
 }
 
-.section {
-    width: 1128px;
-    
-}
+
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -192,7 +189,6 @@ border: none;
     margin: 0 auto;
     display: flex;
     gap: 24px;
-    
 }
 
 .drs-item {
