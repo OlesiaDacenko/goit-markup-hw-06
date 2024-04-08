@@ -340,7 +340,7 @@ color: #434455;
     border-radius: 50%;
     display: flex;
     align-items: center;
-    
+    justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -351,6 +351,7 @@ color: #434455;
      position: absolute;
      top: 12px;
      left: 12px;
+     
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -359,6 +360,10 @@ color: #434455;
     background-color: #404bbf;
 }
 
+.icons-link:hover,
+.icons-link:focus {
+    background-color: #404bbf;
+}
 
 
 .portfolio-section {
