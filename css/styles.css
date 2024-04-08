@@ -165,7 +165,8 @@ margin-left: auto;
 .hero {
     padding: 188px 0;
     background: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/table.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+rgba(46, 47, 66, 0.7)),url(../images/table.jpg);
     margin: 0 auto;
     max-width: 1440px;
     background-repeat: no-repeat;
@@ -352,14 +353,10 @@ color: #434455;
      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-list-fon:hover .icons-link {
-    background-color: #404bbf;
-}
-    
+.team-list-fon:hover .icons-link,
 .team-list-fon:focus .icons-link {
     background-color: #404bbf;
 }
-
 
 .portfolio-section {
     padding-top: 120px;
