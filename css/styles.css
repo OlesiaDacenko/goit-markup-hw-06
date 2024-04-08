@@ -358,6 +358,11 @@ color: #434455;
     background-color: #404bbf;
 }
 
+.icons-link:focus {
+    background-color: #404bbf;
+}
+
+
 .portfolio-section {
     padding-top: 120px;
     padding-bottom: 120px;
