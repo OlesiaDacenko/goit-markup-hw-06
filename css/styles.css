@@ -360,7 +360,7 @@ color: #434455;
     background-color: #404bbf;
 }
 
-.icons-link:focus {
+.icons-link:active {
     background-color: #404bbf;
 }
 
