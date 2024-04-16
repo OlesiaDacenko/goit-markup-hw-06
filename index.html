@@ -231,10 +231,19 @@
             <li class="icons-footer"><a href="" class="link-footer"><svg width="24" height="24" class="i-footer"><use href="./images/icons.svg#icon-facebook"></use></svg></a></li>
             <li class="icons-footer"><a href="" class="link-footer"><svg width="24" height="24" class="i-footer"><use href="./images/icons.svg#icon-linkedin"></use></svg></a></li>
         </ul></div>
+
+          <form class="third-footer">
+    <div class="wrap-footer-three"><p class="second-text">Subscribe</p>
+    <label for="email-footer">
+    <input type="text" name="email-footer" id="email-footer" placeholder="E-mail" class="email-footer-input"></label></div>
+    <button type="submit" class="footer-btn">Subscribe<svg class="footer-btn-icon" width="24" height="20"><use href="./images/icons.svg#icon-telegr"></use></svg></button> 
+         </form>
+
     </div>
     </footer>
 
-    <div class="beackdrop is-open">
+    <!-- is-open -->
+    <div class="beackdrop ">   
         <div class="modal">
             <button type="button" class="modal-close-btn">
                 <svg class="btn-close-im" width="8" height="8">
@@ -284,8 +293,15 @@
                  </div>
 
                  <div class="checkbox-wrap">
-                 <input type="checkbox">
-                 <p class="checkbox-text">I accept the terms and conditions of the<a href="" class="link-form">Privacy Policy</a></p></div>
+                 <input type="checkbox"
+                 name="policy"
+                  class="bird visually-hidden"
+                  value="true"
+                  id="policy">
+                 
+                 <label  for="policy" class="checkbox-text"><span><svg width="10" height="8" class="bird-icon"><use href="./images/icons.svg#icon-bird"></use></svg></span>I accept the terms and conditions of the<a href="" class="link-form">Privacy Policy</a> </label>
+                 
+                  </div>
 
                  <button type="submit" class="btn-form-submit">Send</button>
            </form>
