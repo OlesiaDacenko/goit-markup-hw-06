@@ -536,6 +536,10 @@ height: 40px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: transparent;
 padding-left: 16px;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #ffffff; 
 }
 
 .email-footer-input::placeholder {
@@ -544,6 +548,7 @@ font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
 padding: 8px 16px;
+color: #ffffff;
 }
 
 .footer-btn {
@@ -563,12 +568,15 @@ display: flex;
 align-items: center;
 justify-content: center;
 cursor: pointer;
+border: none;
 }
 
 .footer-btn-icon {
     position: absolute;
+    transform: translateX(50%);
     top: 10px;
-    right: 10px;
+    right: 24px;
+    margin-left: 16px;
 }
 
 /* beackdrop---------------- */
