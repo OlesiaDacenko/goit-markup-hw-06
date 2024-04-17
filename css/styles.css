@@ -520,10 +520,7 @@ width: 264px;
 }
 
 .third-footer {
-    display: flex;
-    gap: 24px;
-    align-items: flex-end;
-    justify-content: center;
+
 }
 
 .form-footer {
