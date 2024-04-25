@@ -562,10 +562,20 @@ width: 264px;
 
 }
 
-.logo-footer {
+.logo-in-footer { 
     display: inline-block;
-    /* margin-bottom: 16px;  */
-   
+     margin: 0 auto; 
+padding-bottom: 16px;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4d5ae5;
+}
+
+.logo-footer {
+    color: #f4f4fd;
 }
 
 .footer .logo-footer {
@@ -630,12 +640,15 @@ width: 264px;
         align-items: baseline;
         justify-content: flex-start;
         width: 584px;
+        gap: 0;
     }
     .wrap-footer-planshet {
      display: flex;
      gap: 24px;
     
     }
+
+    
 
     .first-footer {
         align-items: baseline;
